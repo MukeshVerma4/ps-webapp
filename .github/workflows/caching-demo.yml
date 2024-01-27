@@ -8,7 +8,7 @@ jobs:
 
     runs-on: ubuntu-latest
     env:
-      INSTALLATION_PATH: './.dotnet'
+      INSTALLATION_PATH: ${{ GITHUB_WORKSPACE }}'/.dotnet'
       
     steps:
     - name: Cache dotnet
