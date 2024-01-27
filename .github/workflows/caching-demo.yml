@@ -1,4 +1,4 @@
-name: .NET
+name: Caching Demo .NET
 
 on:
   workflow_dispatch:
